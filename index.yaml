@@ -1,0 +1,212 @@
+apiVersion: v1
+entries:
+  aks-cluster:
+  - annotations:
+      cloudServiceProvider: azure
+      packageType: clusterdeployment
+      templateType: |
+        - "managedcluster"
+        - "managementcluster"
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-01-31T19:35:17.925690681Z"
+    description: A Helm chart for deploying AKS advance cluster
+    digest: cee5b6ca87dbf65391b417543347bb5afe31a4672b49fbea07c92f7389b5d6ed
+    keywords:
+    - azure
+    - aks
+    - clusterdeployment
+    name: aks-cluster
+    type: application
+    urls:
+    - packages/aks-cluster-0.1.0.tgz
+    version: 0.1.0
+  cloud-formation-setting:
+  - annotations:
+      cloudServiceProvider: amazon
+      packageType: service
+      templateType: |
+        - "cloudformationsetting"
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-01-31T19:35:17.925888841Z"
+    description: A Helm chart for deploying cloud formation setting
+    digest: df4c4f33e79c4c18e37a1583c85203eb241af27c8dacac92e7ae566d9d96e9f6
+    keywords:
+    - eks
+    - amazon
+    - cloudformation
+    - cloudformationsetting
+    name: cloud-formation-setting
+    type: application
+    urls:
+    - packages/cloud-formation-setting-0.1.0.tgz
+    version: 0.1.0
+  cloud-formation-vpc:
+  - annotations:
+      cloudServiceProvider: amazon
+      packageType: service
+      templateType: |
+        - "cloudformationvpc"
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-01-31T19:35:17.926667747Z"
+    description: A Helm chart for deploying vpc and other network services for eks
+      cluster using cloudformation
+    digest: 67b60349b0345f71043400e735dc58f819d1ab10c2fb6c4a819c87c5dadac4b7
+    keywords:
+    - eks
+    - amazon
+    - cloudformation
+    - cloudformationvpc
+    name: cloud-formation-vpc
+    type: application
+    urls:
+    - packages/cloud-formation-vpc-0.1.0.tgz
+    version: 0.1.0
+  cluster-iam-role:
+  - annotations:
+      cloudServiceProvider: amazon
+      packageType: service
+      templateType: |
+        - "clusteriamrole"
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-01-31T19:35:17.927272437Z"
+    description: A Helm chart for deploying Cluster IAM role
+    digest: 03b1cc77c27a5b84dd10c26f6a603badbc7fe52554f1567c6b9e0fcb5d55d71d
+    keywords:
+    - eks
+    - amazon
+    - iamrole
+    - clusteriamrole
+    name: cluster-iam-role
+    type: application
+    urls:
+    - packages/cluster-iam-role-0.1.0.tgz
+    version: 0.1.0
+  digitalocean-cluster:
+  - annotations:
+      cloudServiceProvider: digitalocean
+      packageType: clusterdeployment
+      templateType: |
+        - "managedcluster"
+        - "managementcluster"
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-01-31T19:35:17.92762223Z"
+    description: A Helm chart for deploying Digitalocean cluster
+    digest: 71ff8c399ed295d0ea28449584a813bdf5c7b118336109e4ec95368c518b0ada
+    keywords:
+    - digitalocean
+    - clusterdeployment
+    name: digitalocean-cluster
+    type: application
+    urls:
+    - packages/digitalocean-cluster-0.1.0.tgz
+    version: 0.1.0
+  ebs-csi-pod-identity-role:
+  - annotations:
+      cloudServiceProvider: amazon
+      packageType: service
+      templateType: |
+        - "ebscsipodidentityrole"
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-01-31T19:35:17.928023488Z"
+    description: A Helm chart for deploying EBS CSI Pod Identity role
+    digest: 6e95a26e82bc6ba720f726931cf606acb185a4dbc6d23a33e5a977cfeacc776e
+    keywords:
+    - eks
+    - amazon
+    - iamrole
+    - ebscsipodidentityrole
+    name: ebs-csi-pod-identity-role
+    type: application
+    urls:
+    - packages/ebs-csi-pod-identity-role-0.1.0.tgz
+    version: 0.1.0
+  eks-cluster:
+  - annotations:
+      cloudServiceProvider: amazon
+      packageType: clusterdeployment
+      templateType: |
+        - "managedcluster"
+        - "managementcluster"
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-01-31T19:35:17.928336232Z"
+    description: A Helm chart for deploying EKS cluster
+    digest: 565e77017df575fba9a0acbfb230f3aa7a8d023df0b4e30053a0557aac067ab3
+    keywords:
+    - eks
+    - amazon
+    - clusterdeployment
+    name: eks-cluster
+    type: application
+    urls:
+    - packages/eks-cluster-0.1.0.tgz
+    version: 0.1.0
+  gke-cluster:
+  - annotations:
+      cloudServiceProvider: google
+      packageType: clusterdeployment
+      templateType: |
+        - "managedcluster"
+        - "managementcluster"
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-01-31T19:35:17.928590617Z"
+    description: A Helm chart for deploying Gke cluster
+    digest: 061fe7a622a8f5bac417abb9d1e8a29a01b6560b9c9db9ec2c3f485d2c193949
+    keywords:
+    - google
+    - gke
+    - clusterdeployment
+    name: gke-cluster
+    type: application
+    urls:
+    - packages/gke-cluster-0.1.0.tgz
+    version: 0.1.0
+  linode-cluster:
+  - annotations:
+      cloudServiceProvider: linode
+      packageType: clusterdeployment
+      templateType: |
+        - "managedcluster"
+        - "managementcluster"
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-01-31T19:35:17.928769251Z"
+    description: A Helm chart for deploying Linode cluster
+    digest: 28425492ed8e0e2187f1e137a167d30bc9fa659a06fe3b5cc7ac3e6afc2abf79
+    keywords:
+    - linode
+    - clusterdeployment
+    name: linode-cluster
+    type: application
+    urls:
+    - packages/linode-cluster-0.1.0.tgz
+    version: 0.1.0
+  node-iam-role:
+  - annotations:
+      cloudServiceProvider: amazon
+      packageType: service
+      templateType: |
+        - "nodeiamrole"
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-01-31T19:35:17.928938948Z"
+    description: A Helm chart for deploying Node IAM role
+    digest: f4fb3139f6877711e9a1e334022b451a02bdabd6e5182affbbbc52bad680e453
+    keywords:
+    - eks
+    - amazon
+    - iamrole
+    - nodeiamrole
+    name: node-iam-role
+    type: application
+    urls:
+    - packages/node-iam-role-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-01-31T19:35:17.924661598Z"
