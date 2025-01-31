@@ -9,7 +9,7 @@ entries:
         - "managementcluster"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-31T19:37:25.525840509Z"
+    created: "2025-01-31T19:47:49.216505689Z"
     description: A Helm chart for deploying AKS advance cluster
     digest: cee5b6ca87dbf65391b417543347bb5afe31a4672b49fbea07c92f7389b5d6ed
     keywords:
@@ -29,7 +29,7 @@ entries:
         - "cloudformationsetting"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-31T19:37:25.526032906Z"
+    created: "2025-01-31T19:47:49.216683111Z"
     description: A Helm chart for deploying cloud formation setting
     digest: df4c4f33e79c4c18e37a1583c85203eb241af27c8dacac92e7ae566d9d96e9f6
     keywords:
@@ -50,7 +50,7 @@ entries:
         - "cloudformationvpc"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-31T19:37:25.526571034Z"
+    created: "2025-01-31T19:47:49.21723406Z"
     description: A Helm chart for deploying vpc and other network services for eks
       cluster using cloudformation
     digest: 67b60349b0345f71043400e735dc58f819d1ab10c2fb6c4a819c87c5dadac4b7
@@ -72,7 +72,7 @@ entries:
         - "clusteriamrole"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-31T19:37:25.526758432Z"
+    created: "2025-01-31T19:47:49.217461184Z"
     description: A Helm chart for deploying Cluster IAM role
     digest: 03b1cc77c27a5b84dd10c26f6a603badbc7fe52554f1567c6b9e0fcb5d55d71d
     keywords:
@@ -94,7 +94,7 @@ entries:
         - "managementcluster"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-31T19:37:25.526959836Z"
+    created: "2025-01-31T19:47:49.217658974Z"
     description: A Helm chart for deploying Digitalocean cluster
     digest: 71ff8c399ed295d0ea28449584a813bdf5c7b118336109e4ec95368c518b0ada
     keywords:
@@ -113,7 +113,7 @@ entries:
         - "ebscsipodidentityrole"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-31T19:37:25.527154326Z"
+    created: "2025-01-31T19:47:49.217825415Z"
     description: A Helm chart for deploying EBS CSI Pod Identity role
     digest: 6e95a26e82bc6ba720f726931cf606acb185a4dbc6d23a33e5a977cfeacc776e
     keywords:
@@ -135,7 +135,7 @@ entries:
         - "managementcluster"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-31T19:37:25.52742534Z"
+    created: "2025-01-31T19:47:49.218069712Z"
     description: A Helm chart for deploying EKS cluster
     digest: 565e77017df575fba9a0acbfb230f3aa7a8d023df0b4e30053a0557aac067ab3
     keywords:
@@ -156,7 +156,7 @@ entries:
         - "managementcluster"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-31T19:37:25.527688077Z"
+    created: "2025-01-31T19:47:49.218318376Z"
     description: A Helm chart for deploying Gke cluster
     digest: 061fe7a622a8f5bac417abb9d1e8a29a01b6560b9c9db9ec2c3f485d2c193949
     keywords:
@@ -177,7 +177,7 @@ entries:
         - "managementcluster"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-31T19:37:25.527862871Z"
+    created: "2025-01-31T19:47:49.219614858Z"
     description: A Helm chart for deploying Linode cluster
     digest: 28425492ed8e0e2187f1e137a167d30bc9fa659a06fe3b5cc7ac3e6afc2abf79
     keywords:
@@ -196,7 +196,7 @@ entries:
         - "nodeiamrole"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-31T19:37:25.528042184Z"
+    created: "2025-01-31T19:47:49.21999033Z"
     description: A Helm chart for deploying Node IAM role
     digest: f4fb3139f6877711e9a1e334022b451a02bdabd6e5182affbbbc52bad680e453
     keywords:
@@ -209,4 +209,4 @@ entries:
     urls:
     - packages/node-iam-role-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-31T19:37:25.523985321Z"
+generated: "2025-01-31T19:47:49.215346433Z"
