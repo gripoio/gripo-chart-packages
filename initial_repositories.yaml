@@ -1,0 +1,28 @@
+repositories:
+  helm_packages:
+    - name: Bitnami
+      url: https://charts.bitnami.com/bitnami
+      type: Public
+      private: false
+
+  gripo_packages:
+    - name: gripo
+      url: https://packages.gripo.io/
+      type: helm
+      private: false
+
+cloudserviceproviders:
+  - name: amazon
+    description: Amazon also know as aws
+
+  - name: azure
+    description: Azure is own by microsoft
+
+  - name: google
+    description: Own by google
+
+  - name: linode
+    description: Own my Linode
+
+  - name: digitalocean
+    description: Known as digitalocean
